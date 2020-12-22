@@ -1,6 +1,8 @@
 #!/bin/sh
 set -eux
 
+export ANDROID_NDK=/home/lyguo/tools/android-ndk-r20b/
+
 PRJ_ROOT="$( cd "$(dirname "$0")" ; pwd -P)"
 BUILD_ROOT=$PRJ_ROOT/build_android
 PYTORCH_ROOT="${PYTORCH_ROOT:-$PRJ_ROOT/pytorch}"

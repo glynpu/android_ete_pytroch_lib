@@ -12,8 +12,14 @@ endif()
 find_package(Torch REQUIRED)
 
 # Main executable
-add_executable(Predictor predictor.cpp)
+include_directories("./")
+#add_executable(Predictor predictor.cpp)
+add_executable(Predictor test.cc kaldi_io.cc fft.cc wave_reader.cc)
 target_include_directories(Predictor PUBLIC ${TORCH_INCLUDE_DIRS})
+
+# include_directories("./")
+# add_executable(Test test.cc kaldi_io.cc)
+# target_include_directories(Test PUBLIC ${TORCH_INCLUDE_DIRS})
 
 find_package(Threads REQUIRED)
 
@@ -31,6 +37,7 @@ if(APPLE)
     -Wl,-noall_load
     Threads::Threads
     ${Log}
+		-std=c++11
   )
 else()
   target_link_libraries(Predictor
@@ -41,5 +48,6 @@ else()
     -Wl,--no-whole-archive
     Threads::Threads
     ${Log}
+		-std=c++11
   )
 endif()
