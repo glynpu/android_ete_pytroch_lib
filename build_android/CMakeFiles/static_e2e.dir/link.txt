@@ -1,0 +1,2 @@
+/home/lyguo/tools/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar qc libstatic_e2e.a CMakeFiles/static_e2e.dir/kaldi_io.cc.o CMakeFiles/static_e2e.dir/fft.cc.o CMakeFiles/static_e2e.dir/wave_reader.cc.o CMakeFiles/static_e2e.dir/recognizer_impl.cc.o CMakeFiles/static_e2e.dir/wrapper_recognizer.cc.o
+/home/lyguo/tools/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libstatic_e2e.a

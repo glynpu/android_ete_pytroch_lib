@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lyguo/github/pytorch-android-cpp-demo/test.cc
+fstream
+/home/lyguo/github/pytorch-android-cpp-demo/fstream
+wave_reader.h
+/home/lyguo/github/pytorch-android-cpp-demo/wave_reader.h
+wrapper_recognizer.h
+/home/lyguo/github/pytorch-android-cpp-demo/wrapper_recognizer.h
+
+/home/lyguo/github/pytorch-android-cpp-demo/wave_reader.cc
+wave_reader.h
+/home/lyguo/github/pytorch-android-cpp-demo/wave_reader.h
+cassert
+-
+cstdlib
+-
+cstring
+-
+
+/home/lyguo/github/pytorch-android-cpp-demo/wave_reader.h
+cstdint
+-
+iostream
+-
+vector
+-
+
+/home/lyguo/github/pytorch-android-cpp-demo/wrapper_recognizer.h
+memory
+-
+vector
+-
+

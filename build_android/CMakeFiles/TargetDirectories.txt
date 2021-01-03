@@ -1,0 +1,7 @@
+/home/lyguo/github/pytorch-android-cpp-demo/build_android/CMakeFiles/rebuild_cache.dir
+/home/lyguo/github/pytorch-android-cpp-demo/build_android/CMakeFiles/edit_cache.dir
+/home/lyguo/github/pytorch-android-cpp-demo/build_android/CMakeFiles/dynamic_Predictor.dir
+/home/lyguo/github/pytorch-android-cpp-demo/build_android/CMakeFiles/e2e.dir
+/home/lyguo/github/pytorch-android-cpp-demo/build_android/CMakeFiles/e2e_jni.dir
+/home/lyguo/github/pytorch-android-cpp-demo/build_android/CMakeFiles/Predictor.dir
+/home/lyguo/github/pytorch-android-cpp-demo/build_android/CMakeFiles/static_e2e.dir
